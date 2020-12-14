@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_blue"
+    tools:context=".GameMenu"
+    android:id="@+id/parent_menu">
+
+    <TextView
+        android:text="PILIH LAWANMU"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/comic_san"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv_vs_pemain"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img_lawan_pemain2"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+    <TextView
+        android:id="@+id/tv_vs_pemain"
+        android:text="Pemain vs Pemain"
+        android:textColor="@color/black"
+        android:fontFamily="@font/comic_san"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv_vs_cpu"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/img_lawan_com"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+    <TextView
+        android:id="@+id/tv_vs_cpu"
+        android:text="Pemain vs CPU"
+        android:textColor="@color/black"
+        android:fontFamily="@font/comic_san"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
